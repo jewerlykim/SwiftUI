@@ -15,6 +15,8 @@
 		040C0D362769D2BB00835FCB /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 040C0D342769D2BB00835FCB /* success.m4a */; };
 		040C0D3D2769EF8400835FCB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C0D3C2769EF8400835FCB /* OnboardingView.swift */; };
 		040C0D3F2769EF9000835FCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C0D3E2769EF9000835FCB /* HomeView.swift */; };
+		049C5033277055FD00394624 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C5032277055FD00394624 /* CircleGroupView.swift */; };
+		049C5035277089B400394624 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C5034277089B400394624 /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		040C0D3B2769EF2C00835FCB /* -SwiftUI-Restart-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-SwiftUI-Restart-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		040C0D3C2769EF8400835FCB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		040C0D3E2769EF9000835FCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		049C5032277055FD00394624 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		049C5034277089B400394624 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		040C0D392769ED1B00835FCB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				049C5032277055FD00394624 /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 		040C0D3A2769ED2F00835FCB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				049C5034277089B400394624 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -185,10 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049C5033277055FD00394624 /* CircleGroupView.swift in Sources */,
 				040C0D3D2769EF8400835FCB /* OnboardingView.swift in Sources */,
 				040C0D3F2769EF9000835FCB /* HomeView.swift in Sources */,
 				040C0D282769CF4700835FCB /* ContentView.swift in Sources */,
 				040C0D262769CF4700835FCB /* _SwiftUI_Restart_AppApp.swift in Sources */,
+				049C5035277089B400394624 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +238,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -292,6 +301,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -326,7 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,7 +367,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
