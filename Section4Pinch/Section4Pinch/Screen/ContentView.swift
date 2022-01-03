@@ -59,10 +59,8 @@ struct ContentView: View {
                                 if imageScale <= 1 {
                                     resetImageState()
                                 }
-                                
                             }
                     )
-                
             } //: ZStack
             .navigationTitle("Pinch & Zoom")
             .navigationBarTitleDisplayMode(.inline)
