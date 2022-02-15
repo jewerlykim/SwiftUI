@@ -9,13 +9,13 @@ import SwiftUI
 
 struct FruitCardView: View {
     // MARK: - Properties
-    
+
     var fruit: Fruit
-    
+
     @State private var isAnimating: Bool = false
-    
-    
+
     // MARK: - Body
+
     var body: some View {
         ZStack {
             VStack(spacing: 20) {
@@ -41,8 +41,6 @@ struct FruitCardView: View {
                 StartButtonView()
                 Spacer()
                 Spacer()
-
-                
             } //: VStack
         } //: ZStack
         .onAppear(perform: {
@@ -58,10 +56,11 @@ struct FruitCardView: View {
 }
 
 // MARK: - Preview
+
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
         FruitCardView(fruit: fruitsData[0])
             .previewLayout(.fixed(width: 320, height: 640))
-.previewInterfaceOrientation(.portrait)
+            .previewInterfaceOrientation(.portrait)
     }
 }

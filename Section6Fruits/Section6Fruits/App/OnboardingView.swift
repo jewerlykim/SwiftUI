@@ -9,24 +9,26 @@ import SwiftUI
 
 struct OnboardingView: View {
     // MARK: - Properties
-    
+
     var fruits: [Fruit] = fruitsData
+
     // MARK: - Body
+
     var body: some View {
-        
         VStack {
-            TabView{
+            TabView {
                 ForEach(fruits) { item in
                     FruitCardView(fruit: item)
                 } //: Loop
             } //: TabView
             .tabViewStyle(PageTabViewStyle())
-        .padding(.vertical, 20)
+            .padding(.vertical, 20)
         }
     }
 }
 
 // MARK: - Preview
+
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
         OnboardingView()

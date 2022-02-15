@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct FruitRowView: View {
-    
     var fruit: Fruit
-    
+
     var body: some View {
         HStack {
             Image(fruit.image)

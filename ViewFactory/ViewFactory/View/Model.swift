@@ -7,10 +7,7 @@
 
 import SwiftUI
 
-
 struct GimbalButtonInfo {
     var degree: String
     var offsetY: CGFloat
 }
-
-

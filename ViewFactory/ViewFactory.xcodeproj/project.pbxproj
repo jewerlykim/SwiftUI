@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04166022279F912A008EA9A8 /* YamlRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04166021279F912A008EA9A8 /* YamlRepository.swift */; };
+		041912A72787CC2600C16302 /* M300GimbalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041912A62787CC2600C16302 /* M300GimbalView.swift */; };
+		041912AC2787CDF800C16302 /* M300GimbalBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041912AB2787CDF800C16302 /* M300GimbalBackGroundView.swift */; };
+		041912AE2787D71C00C16302 /* M300GimbalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041912AD2787D71C00C16302 /* M300GimbalLineView.swift */; };
+		041912B02787E01800C16302 /* M300ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041912AF2787E01800C16302 /* M300ControlView.swift */; };
+		041912C2278841DE00C16302 /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041912C1278841DD00C16302 /* SampleViewModel.swift */; };
+		041EDBD427BB7F5C0098C378 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBD227BB7F5C0098C378 /* Logger.swift */; };
+		041EDBD527BB7F5C0098C378 /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBD327BB7F5C0098C378 /* LogUtil.swift */; };
+		041EDBD727BB804A0098C378 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBD627BB804A0098C378 /* DateExtension.swift */; };
+		0422D8442791098000E40C33 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422D8432791098000E40C33 /* PracticeView.swift */; };
+		0422D84627916BDC00E40C33 /* M600GimbalControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422D84527916BDC00E40C33 /* M600GimbalControlView.swift */; };
+		042E189D2782BDD0002EBE06 /* FooterM600.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E189C2782BDD0002EBE06 /* FooterM600.swift */; };
+		042E18A02782D0A7002EBE06 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E189F2782D0A7002EBE06 /* UIScreenExtension.swift */; };
+		0432A0D127B5F2C2004A1AD5 /* MissionTryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432A0D027B5F2C2004A1AD5 /* MissionTryView.swift */; };
 		044CA04F2772FC65003DB0BA /* ViewFactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CA04E2772FC65003DB0BA /* ViewFactoryApp.swift */; };
 		044CA0512772FC65003DB0BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CA0502772FC65003DB0BA /* ContentView.swift */; };
 		044CA0532772FC66003DB0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CA0522772FC66003DB0BA /* Assets.xcassets */; };
@@ -16,11 +30,44 @@
 		044CA0622773025F003DB0BA /* GimbalControlSmallHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CA0612773025F003DB0BA /* GimbalControlSmallHorizontal.swift */; };
 		044CA064277302D4003DB0BA /* GimbalControlViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CA063277302D4003DB0BA /* GimbalControlViewInfo.swift */; };
 		044CA0662773221D003DB0BA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CA0652773221D003DB0BA /* Model.swift */; };
+		045B390A278C1698004A7CB0 /* M300FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B3909278C1698004A7CB0 /* M300FooterView.swift */; };
+		045B390C278C16AF004A7CB0 /* M300FooterCompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B390B278C16AF004A7CB0 /* M300FooterCompassView.swift */; };
+		045B390E278C16C1004A7CB0 /* M300FooterWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B390D278C16C1004A7CB0 /* M300FooterWidgetView.swift */; };
+		045EE5B9278E4CF800F68705 /* M300FooterDistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045EE5B8278E4CF800F68705 /* M300FooterDistanceView.swift */; };
+		046478DB278FE4F500AA5DD5 /* PreflightCheckListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046478DA278FE4F500AA5DD5 /* PreflightCheckListController.swift */; };
+		046478DF278FEB0500AA5DD5 /* TopbarModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046478DE278FEB0500AA5DD5 /* TopbarModalView.swift */; };
+		046478E1278FF83B00AA5DD5 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046478E0278FF83B00AA5DD5 /* Sample.swift */; };
+		046478E3278FFB6E00AA5DD5 /* RemoteControlModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046478E2278FFB6E00AA5DD5 /* RemoteControlModalView.swift */; };
+		046478E72790137600AA5DD5 /* ImageTransmissionSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046478E62790137600AA5DD5 /* ImageTransmissionSettingView.swift */; };
+		046478EB2790186000AA5DD5 /* OSIBatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046478EA2790186000AA5DD5 /* OSIBatteryView.swift */; };
+		0495D24427850E2C00420B85 /* M600FooterBackGroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495D24327850E2C00420B85 /* M600FooterBackGroundImageView.swift */; };
+		0495D248278525D400420B85 /* M600FooterMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495D247278525D400420B85 /* M600FooterMiddleView.swift */; };
+		0495D24C27852F2A00420B85 /* M600FooterRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495D24B27852F2A00420B85 /* M600FooterRightView.swift */; };
+		04B8BCA6278E7DE900F16BEA /* MainTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BCA5278E7DE900F16BEA /* MainTopBarView.swift */; };
 		04BC7D992774340000C43227 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC7D982774340000C43227 /* CGFloatExtension.swift */; };
 		04BC7D9D277441D400C43227 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC7D9C277441D400C43227 /* CGRectExtension.swift */; };
+		04EA157A278D83970019D82A /* M300FooterCompassNESWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA1579278D83970019D82A /* M300FooterCompassNESWView.swift */; };
+		04EACAF82783CA620096C80B /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EACAF72783CA620096C80B /* CompassView.swift */; };
+		04EACAFA2783EFBB0096C80B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EACAF92783EFBB0096C80B /* ViewModel.swift */; };
+		448154C113141B3229A60B7A /* Pods_ViewFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E81E3870339484C648DD6D /* Pods_ViewFactory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04166021279F912A008EA9A8 /* YamlRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamlRepository.swift; sourceTree = "<group>"; };
+		041912A62787CC2600C16302 /* M300GimbalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300GimbalView.swift; sourceTree = "<group>"; };
+		041912AB2787CDF800C16302 /* M300GimbalBackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300GimbalBackGroundView.swift; sourceTree = "<group>"; };
+		041912AD2787D71C00C16302 /* M300GimbalLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300GimbalLineView.swift; sourceTree = "<group>"; };
+		041912AF2787E01800C16302 /* M300ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300ControlView.swift; sourceTree = "<group>"; };
+		041912C1278841DD00C16302 /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		041912C32788430900C16302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		041EDBD227BB7F5C0098C378 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		041EDBD327BB7F5C0098C378 /* LogUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
+		041EDBD627BB804A0098C378 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		0422D8432791098000E40C33 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		0422D84527916BDC00E40C33 /* M600GimbalControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M600GimbalControlView.swift; sourceTree = "<group>"; };
+		042E189C2782BDD0002EBE06 /* FooterM600.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterM600.swift; sourceTree = "<group>"; };
+		042E189F2782D0A7002EBE06 /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
+		0432A0D027B5F2C2004A1AD5 /* MissionTryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTryView.swift; sourceTree = "<group>"; };
 		044CA04B2772FC65003DB0BA /* ViewFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CA04E2772FC65003DB0BA /* ViewFactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactoryApp.swift; sourceTree = "<group>"; };
 		044CA0502772FC65003DB0BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,8 +78,28 @@
 		044CA0612773025F003DB0BA /* GimbalControlSmallHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimbalControlSmallHorizontal.swift; sourceTree = "<group>"; };
 		044CA063277302D4003DB0BA /* GimbalControlViewInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimbalControlViewInfo.swift; sourceTree = "<group>"; };
 		044CA0652773221D003DB0BA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		045B3909278C1698004A7CB0 /* M300FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300FooterView.swift; sourceTree = "<group>"; };
+		045B390B278C16AF004A7CB0 /* M300FooterCompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300FooterCompassView.swift; sourceTree = "<group>"; };
+		045B390D278C16C1004A7CB0 /* M300FooterWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300FooterWidgetView.swift; sourceTree = "<group>"; };
+		045EE5B8278E4CF800F68705 /* M300FooterDistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300FooterDistanceView.swift; sourceTree = "<group>"; };
+		046478DA278FE4F500AA5DD5 /* PreflightCheckListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreflightCheckListController.swift; sourceTree = "<group>"; };
+		046478DE278FEB0500AA5DD5 /* TopbarModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopbarModalView.swift; sourceTree = "<group>"; };
+		046478E0278FF83B00AA5DD5 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		046478E2278FFB6E00AA5DD5 /* RemoteControlModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlModalView.swift; sourceTree = "<group>"; };
+		046478E62790137600AA5DD5 /* ImageTransmissionSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransmissionSettingView.swift; sourceTree = "<group>"; };
+		046478EA2790186000AA5DD5 /* OSIBatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSIBatteryView.swift; sourceTree = "<group>"; };
+		0495D24327850E2C00420B85 /* M600FooterBackGroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M600FooterBackGroundImageView.swift; sourceTree = "<group>"; };
+		0495D247278525D400420B85 /* M600FooterMiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M600FooterMiddleView.swift; sourceTree = "<group>"; };
+		0495D24B27852F2A00420B85 /* M600FooterRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M600FooterRightView.swift; sourceTree = "<group>"; };
+		04B8BCA5278E7DE900F16BEA /* MainTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTopBarView.swift; sourceTree = "<group>"; };
 		04BC7D982774340000C43227 /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
 		04BC7D9C277441D400C43227 /* CGRectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		04EA1579278D83970019D82A /* M300FooterCompassNESWView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M300FooterCompassNESWView.swift; sourceTree = "<group>"; };
+		04EACAF72783CA620096C80B /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		04EACAF92783EFBB0096C80B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2D15F5837007C4C3574DA9E2 /* Pods-ViewFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewFactory.debug.xcconfig"; path = "Target Support Files/Pods-ViewFactory/Pods-ViewFactory.debug.xcconfig"; sourceTree = "<group>"; };
+		899705ACBB15F418D1C11A0F /* Pods-ViewFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewFactory.release.xcconfig"; path = "Target Support Files/Pods-ViewFactory/Pods-ViewFactory.release.xcconfig"; sourceTree = "<group>"; };
+		D6E81E3870339484C648DD6D /* Pods_ViewFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +107,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448154C113141B3229A60B7A /* Pods_ViewFactory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041912A82787CDBC00C16302 /* M600FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				042E189C2782BDD0002EBE06 /* FooterM600.swift */,
+				04EACAF72783CA620096C80B /* CompassView.swift */,
+				0495D24327850E2C00420B85 /* M600FooterBackGroundImageView.swift */,
+				0495D247278525D400420B85 /* M600FooterMiddleView.swift */,
+				0495D24B27852F2A00420B85 /* M600FooterRightView.swift */,
+			);
+			path = M600FooterView;
+			sourceTree = "<group>";
+		};
+		041912A92787CDCE00C16302 /* M600GimbalView */ = {
+			isa = PBXGroup;
+			children = (
+				044CA05C2772FC85003DB0BA /* GimbalControlViewM600.swift */,
+				044CA05F27730164003DB0BA /* GimbalControlLargeHorizontal.swift */,
+				044CA0612773025F003DB0BA /* GimbalControlSmallHorizontal.swift */,
+				044CA063277302D4003DB0BA /* GimbalControlViewInfo.swift */,
+				0422D84527916BDC00E40C33 /* M600GimbalControlView.swift */,
+			);
+			path = M600GimbalView;
+			sourceTree = "<group>";
+		};
+		041912AA2787CDE000C16302 /* M300GimbalView */ = {
+			isa = PBXGroup;
+			children = (
+				041912A62787CC2600C16302 /* M300GimbalView.swift */,
+				041912AB2787CDF800C16302 /* M300GimbalBackGroundView.swift */,
+				041912AD2787D71C00C16302 /* M300GimbalLineView.swift */,
+				041912AF2787E01800C16302 /* M300ControlView.swift */,
+			);
+			path = M300GimbalView;
+			sourceTree = "<group>";
+		};
+		042E189E2782D08F002EBE06 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				042E189F2782D0A7002EBE06 /* UIScreenExtension.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
 		044CA0422772FC65003DB0BA = {
 			isa = PBXGroup;
 			children = (
 				044CA04D2772FC65003DB0BA /* ViewFactory */,
 				044CA04C2772FC65003DB0BA /* Products */,
+				35F5D411FBA4A1FB7207D5A2 /* Pods */,
+				A200FC2A2FA23B126EA8E446 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,12 +178,20 @@
 		044CA04D2772FC65003DB0BA /* ViewFactory */ = {
 			isa = PBXGroup;
 			children = (
+				041EDBD627BB804A0098C378 /* DateExtension.swift */,
+				041EDBD227BB7F5C0098C378 /* Logger.swift */,
+				041EDBD327BB7F5C0098C378 /* LogUtil.swift */,
+				041912C32788430900C16302 /* Info.plist */,
+				042E189E2782D08F002EBE06 /* Extenstions */,
 				044CA04E2772FC65003DB0BA /* ViewFactoryApp.swift */,
 				044CA05E2772FC91003DB0BA /* View */,
 				044CA0522772FC66003DB0BA /* Assets.xcassets */,
 				044CA0542772FC66003DB0BA /* Preview Content */,
 				04BC7D982774340000C43227 /* CGFloatExtension.swift */,
 				04BC7D9C277441D400C43227 /* CGRectExtension.swift */,
+				04EACAF92783EFBB0096C80B /* ViewModel.swift */,
+				041912C1278841DD00C16302 /* SampleViewModel.swift */,
+				04166021279F912A008EA9A8 /* YamlRepository.swift */,
 			);
 			path = ViewFactory;
 			sourceTree = "<group>";
@@ -87,13 +208,59 @@
 			isa = PBXGroup;
 			children = (
 				044CA0502772FC65003DB0BA /* ContentView.swift */,
-				044CA05C2772FC85003DB0BA /* GimbalControlViewM600.swift */,
-				044CA05F27730164003DB0BA /* GimbalControlLargeHorizontal.swift */,
-				044CA0612773025F003DB0BA /* GimbalControlSmallHorizontal.swift */,
-				044CA063277302D4003DB0BA /* GimbalControlViewInfo.swift */,
+				041912A92787CDCE00C16302 /* M600GimbalView */,
 				044CA0652773221D003DB0BA /* Model.swift */,
+				041912A82787CDBC00C16302 /* M600FooterView */,
+				041912AA2787CDE000C16302 /* M300GimbalView */,
+				045B3910278C16D0004A7CB0 /* M300Footer */,
+				04B8BCA7278E7DEF00F16BEA /* TopBar */,
+				0422D8432791098000E40C33 /* PracticeView.swift */,
+				0432A0D027B5F2C2004A1AD5 /* MissionTryView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		045B3910278C16D0004A7CB0 /* M300Footer */ = {
+			isa = PBXGroup;
+			children = (
+				045B3909278C1698004A7CB0 /* M300FooterView.swift */,
+				045B390B278C16AF004A7CB0 /* M300FooterCompassView.swift */,
+				045B390D278C16C1004A7CB0 /* M300FooterWidgetView.swift */,
+				04EA1579278D83970019D82A /* M300FooterCompassNESWView.swift */,
+				045EE5B8278E4CF800F68705 /* M300FooterDistanceView.swift */,
+			);
+			path = M300Footer;
+			sourceTree = "<group>";
+		};
+		04B8BCA7278E7DEF00F16BEA /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				046478DA278FE4F500AA5DD5 /* PreflightCheckListController.swift */,
+				04B8BCA5278E7DE900F16BEA /* MainTopBarView.swift */,
+				046478DE278FEB0500AA5DD5 /* TopbarModalView.swift */,
+				046478E0278FF83B00AA5DD5 /* Sample.swift */,
+				046478E2278FFB6E00AA5DD5 /* RemoteControlModalView.swift */,
+				046478E62790137600AA5DD5 /* ImageTransmissionSettingView.swift */,
+				046478EA2790186000AA5DD5 /* OSIBatteryView.swift */,
+			);
+			path = TopBar;
+			sourceTree = "<group>";
+		};
+		35F5D411FBA4A1FB7207D5A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D15F5837007C4C3574DA9E2 /* Pods-ViewFactory.debug.xcconfig */,
+				899705ACBB15F418D1C11A0F /* Pods-ViewFactory.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A200FC2A2FA23B126EA8E446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6E81E3870339484C648DD6D /* Pods_ViewFactory.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044CA0592772FC66003DB0BA /* Build configuration list for PBXNativeTarget "ViewFactory" */;
 			buildPhases = (
+				F1E9DD8FDC8BF2800BA801C7 /* [CP] Check Pods Manifest.lock */,
 				044CA0472772FC65003DB0BA /* Sources */,
 				044CA0482772FC65003DB0BA /* Frameworks */,
 				044CA0492772FC65003DB0BA /* Resources */,
+				242DEE796739A06E5AB8184F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,20 +330,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		242DEE796739A06E5AB8184F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViewFactory/Pods-ViewFactory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViewFactory/Pods-ViewFactory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViewFactory/Pods-ViewFactory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E9DD8FDC8BF2800BA801C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewFactory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		044CA0472772FC65003DB0BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				044CA0662773221D003DB0BA /* Model.swift in Sources */,
+				041EDBD727BB804A0098C378 /* DateExtension.swift in Sources */,
+				04EA157A278D83970019D82A /* M300FooterCompassNESWView.swift in Sources */,
 				044CA0512772FC65003DB0BA /* ContentView.swift in Sources */,
+				0422D8442791098000E40C33 /* PracticeView.swift in Sources */,
+				042E18A02782D0A7002EBE06 /* UIScreenExtension.swift in Sources */,
+				041912C2278841DE00C16302 /* SampleViewModel.swift in Sources */,
 				044CA05D2772FC85003DB0BA /* GimbalControlViewM600.swift in Sources */,
 				044CA04F2772FC65003DB0BA /* ViewFactoryApp.swift in Sources */,
 				044CA0622773025F003DB0BA /* GimbalControlSmallHorizontal.swift in Sources */,
+				046478E3278FFB6E00AA5DD5 /* RemoteControlModalView.swift in Sources */,
+				0495D24427850E2C00420B85 /* M600FooterBackGroundImageView.swift in Sources */,
+				0432A0D127B5F2C2004A1AD5 /* MissionTryView.swift in Sources */,
+				04EACAFA2783EFBB0096C80B /* ViewModel.swift in Sources */,
+				042E189D2782BDD0002EBE06 /* FooterM600.swift in Sources */,
 				044CA064277302D4003DB0BA /* GimbalControlViewInfo.swift in Sources */,
+				045B390E278C16C1004A7CB0 /* M300FooterWidgetView.swift in Sources */,
+				045B390A278C1698004A7CB0 /* M300FooterView.swift in Sources */,
+				046478E72790137600AA5DD5 /* ImageTransmissionSettingView.swift in Sources */,
+				0422D84627916BDC00E40C33 /* M600GimbalControlView.swift in Sources */,
+				041EDBD427BB7F5C0098C378 /* Logger.swift in Sources */,
+				041912AC2787CDF800C16302 /* M300GimbalBackGroundView.swift in Sources */,
 				04BC7D9D277441D400C43227 /* CGRectExtension.swift in Sources */,
+				04166022279F912A008EA9A8 /* YamlRepository.swift in Sources */,
+				046478DB278FE4F500AA5DD5 /* PreflightCheckListController.swift in Sources */,
+				041912B02787E01800C16302 /* M300ControlView.swift in Sources */,
+				04B8BCA6278E7DE900F16BEA /* MainTopBarView.swift in Sources */,
+				045B390C278C16AF004A7CB0 /* M300FooterCompassView.swift in Sources */,
+				045EE5B9278E4CF800F68705 /* M300FooterDistanceView.swift in Sources */,
+				04EACAF82783CA620096C80B /* CompassView.swift in Sources */,
+				046478EB2790186000AA5DD5 /* OSIBatteryView.swift in Sources */,
+				041912A72787CC2600C16302 /* M300GimbalView.swift in Sources */,
+				041912AE2787D71C00C16302 /* M300GimbalLineView.swift in Sources */,
 				04BC7D992774340000C43227 /* CGFloatExtension.swift in Sources */,
+				046478E1278FF83B00AA5DD5 /* Sample.swift in Sources */,
+				0495D248278525D400420B85 /* M600FooterMiddleView.swift in Sources */,
+				046478DF278FEB0500AA5DD5 /* TopbarModalView.swift in Sources */,
 				044CA06027730164003DB0BA /* GimbalControlLargeHorizontal.swift in Sources */,
+				041EDBD527BB7F5C0098C378 /* LogUtil.swift in Sources */,
+				0495D24C27852F2A00420B85 /* M600FooterRightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,19 +541,26 @@
 		};
 		044CA05A2772FC66003DB0BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D15F5837007C4C3574DA9E2 /* Pods-ViewFactory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ViewFactory/Preview Content\"";
 				DEVELOPMENT_TEAM = 4BNK27X5VR;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 armv7 i386 x86_64 x86";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViewFactory/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,19 +578,25 @@
 		};
 		044CA05B2772FC66003DB0BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899705ACBB15F418D1C11A0F /* Pods-ViewFactory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ViewFactory/Preview Content\"";
 				DEVELOPMENT_TEAM = 4BNK27X5VR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViewFactory/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,6 +604,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = nearthlab.ViewFactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

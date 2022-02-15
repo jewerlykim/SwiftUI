@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct FruitHeaderView: View {
-    
     var fruit: Fruit
-    
+
     @State private var isAnimatingImage: Bool = false
-    
+
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: fruit.gradientColors), startPoint: .topLeading, endPoint: .bottomTrailing)

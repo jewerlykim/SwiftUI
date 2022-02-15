@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 extension CGFloat {
     func resize(proportion: Float) -> CGFloat {
         return self * CGFloat(proportion)

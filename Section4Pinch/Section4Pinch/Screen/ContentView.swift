@@ -9,25 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - Property
+
     @State private var isAnimating: Bool = false
     @State private var imageScale: CGFloat = 1
     @State private var imageOffset: CGSize = .zero
-    
+
     // MARK: - Function
+
     func resetImageState() {
         return withAnimation(.spring()) {
             imageScale = 1
             imageOffset = .zero
         }
     }
-    
+
     // MARK: - Content
-    
-    
+
     var body: some View {
         NavigationView {
             ZStack {
                 // MARK: - Page Image
+
                 Image("magazine-front-cover")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -37,7 +39,9 @@ struct ContentView: View {
                     .opacity(isAnimating ? 1 : 0)
                     .offset(x: imageOffset.width, y: imageOffset.height)
                     .scaleEffect(imageScale)
-                // MARK: - 1 . Tap gesture
+
+                    // MARK: - 1 . Tap gesture
+
                     .onTapGesture(count: 2, perform: {
                         if imageScale == 1 {
                             withAnimation(.spring()) {
@@ -47,7 +51,9 @@ struct ContentView: View {
                             resetImageState()
                         }
                     })
-                // MARK: - 2 . Drag gesture
+
+                    // MARK: - 2 . Drag gesture
+
                     .gesture(
                         DragGesture()
                             .onChanged { value in
@@ -78,6 +84,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .preferredColorScheme(.light)
-.previewInterfaceOrientation(.landscapeLeft)
+            .previewInterfaceOrientation(.landscapeLeft)
     }
 }

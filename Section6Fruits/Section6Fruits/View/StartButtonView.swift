@@ -9,18 +9,18 @@ import SwiftUI
 
 struct StartButtonView: View {
     // MARK: - Properties
+
     @AppStorage("isOnboarding") var isOnboarding: Bool?
-    
+
     // MARK: - Body
-    
-    
+
     var body: some View {
         Button(action: {
             isOnboarding = false
         }) {
             HStack(spacing: 8) {
                 Text("Start")
-                
+
                 Image(systemName: "arrow.right.circle")
                     .imageScale(.large)
             }

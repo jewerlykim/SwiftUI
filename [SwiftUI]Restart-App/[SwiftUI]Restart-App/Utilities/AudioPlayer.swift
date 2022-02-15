@@ -5,8 +5,8 @@
 //  Created by 김보석 on 2021/12/20.
 //
 
-import Foundation
 import AVFoundation
+import Foundation
 
 var audioPlayer: AVAudioPlayer?
 
